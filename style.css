@@ -1,6 +1,6 @@
 @font-face {
     font-family: MainFont;
-    src: url('/fonts/18VAG.ttf');
+    src: url('./fonts/18VAG.ttf');
 }
 
 :root{
