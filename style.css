@@ -129,7 +129,7 @@ button{
 }
 
 .scroll-button {
-    /* position: absolute; */
+    position: absolute;
     /* top: 50%; */
     transform: translateY(-50%);
     background: #007bff;
@@ -138,26 +138,28 @@ button{
     padding: 10px;
     cursor: pointer;
     z-index: 10;
-  }
+}
 
-  .scroll-button.left {
-    left: 0;
-  }
+.scroll-button.left {
+    left: 18%;
+}
 
-  .card-scroller {
+.card-scroller {
     display: flex;
     overflow-x: auto;
+    justify-items: center;
     scroll-behavior: smooth;
-  }
-  
-  .scroll-button.right {
-    right: 0;
-  }
-  
-  .scroll-button:disabled {
-    background: #aaa;
-    cursor: not-allowed;
-  }
+    margin: 0% 20%;
+}
+
+.scroll-button.right {
+    right: 18%;
+}
+
+.scroll-button:disabled {
+background: #aaa;
+cursor: not-allowed;
+}
 
 .project-card div{
     display: flex;
