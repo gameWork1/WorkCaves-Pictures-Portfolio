@@ -194,14 +194,11 @@ button{
     width: 100%;
 }
 
-
-@media (max-width: 1920px) {
-    .body-about-description{
-        margin: 0% 10%;
-        font-size: 28px;
-        display: flex;
-        justify-content: center;
-    }
+.body-about-description{
+    margin: 0% 10%;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
 }
 
 @media (max-width: 780px) {
